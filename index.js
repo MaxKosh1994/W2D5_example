@@ -61,8 +61,8 @@ clearButton.addEventListener('click', () => {
   window.location = '/';
 });
 
-const allIndexes = document.querySelectorAll('.index');
-
+//! Обновление индексов
+// const allIndexes = document.querySelectorAll('.index');
 // allIndexes.forEach((element, index) => {
 //   element.innerText = index + 1;
 // });
