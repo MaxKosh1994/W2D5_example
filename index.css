@@ -1,0 +1,97 @@
+:root {
+  --color-bg-main: rgb(62, 62, 62);
+  --color-font-header: aliceblue;
+  --color-border-default: #ccc;
+  --color-font-default: black;
+  --color-btn-bg: rgb(20, 174, 0);
+  --color-font-container: white;
+  --color-border-row: white;
+  --color-border-delete: #bbb;
+}
+
+* {
+  font-family: 'Vina Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg-main);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 500px;
+}
+
+#header,
+.form,
+#container {
+  width: 100%;
+}
+
+#header {
+  font-size: 40px;
+  color: var(--color-font-header);
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+  height: 50px;
+  padding: 10px;
+}
+
+.input,
+.button {
+  display: block;
+  border: 1px solid var(--color-border-default);
+  color: var(--color-font-default);
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 200px;
+  cursor: pointer;
+  background-color: var(--color-btn-bg);
+  font-size: 20px;
+}
+
+.input {
+  flex-grow: 1;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  color: var(--color-font-container);
+  font-size: 20px;
+}
+
+.rus {
+  position: relative;
+}
+
+.index {
+  margin-right: 10px;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+}
+
+.clearAll {
+  /* some styles, guys */
+}
